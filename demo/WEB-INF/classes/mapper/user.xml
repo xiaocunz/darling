@@ -6,6 +6,10 @@
         SELECT * FROM user where id = #id#
     </select>
 
+    <select id="findAll" parameterClass="java.lang.Long" resultClass="net.xiaocun.model.User">
+        SELECT * FROM user
+    </select>
+
     <select id="queryByName" parameterClass="java.lang.String" resultClass="net.xiaocun.model.User">
         SELECT * FROM user where name = #name#
     </select>
