@@ -33,7 +33,7 @@
     </insert>
 
     <select id="countUser" resultClass="int">
-        SELECT COUNT(*) AS total FROM user
+        SELECT COUNT(*) FROM user
     </select>
 
 
