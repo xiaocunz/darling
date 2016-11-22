@@ -35,4 +35,7 @@
               <constructor-arg name="template" ref="redisTemplate"></constructor-arg>
        </bean>
 
+       <!-- redis cache keyGenerator -->
+       <bean id="keyGenerator" class="net.xiaocun.cache.RedisKeyGenerator"></bean>
+
 </beans>
